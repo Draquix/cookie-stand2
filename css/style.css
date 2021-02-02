@@ -1,0 +1,53 @@
+body {
+    font-family: serif;
+    color:black;
+    background-color: salmon;
+}
+header, footer {
+    width:100%;
+    display:inline-block;
+    background-color: slateblue;
+    height: 120px;
+}
+nav {
+    float:right;
+    display: inline-block;
+}
+nav a {
+    background-color: teal;
+    padding:25px;
+    border-radius: 10px;
+}
+h1 {
+    font-family: 'East Sea Dokdo', cursive;
+    color:violet;
+    font-size: 4em;
+}
+ul {
+    font-family: Helvetica sans-serif  ;
+    color:springgreen;
+    background-color: black;
+}
+.city {
+    font-family: 'East Sea Dokdo', cursive;
+    color:blue;
+    font-size: 2em;
+    font-weight: bold;
+}
+main {
+    margin-top:30px;
+    display:inline-block;
+    width:100%;
+}
+aside {
+    background-color: tomato;
+    height: 600px;
+    float: left;
+    width:40%;
+}
+section {
+    float:right;
+    width:55%;
+    height: 600px;
+    background-color: rgb(94, 33, 175);
+}
